@@ -1,6 +1,5 @@
 export default {
   ssr: false,
-  target: 'static',
 
   head: {
     titleTemplate: '%s - upswot',

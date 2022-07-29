@@ -14,7 +14,7 @@
           performance, which will help analyze your own finances and cash flows,
           visualize your reporting, business processes, KPI's
         </p>
-        <div class="sub" v-for="item in listDescData" :key="item.id">
+        <div v-for="item in listDescData" :key="item.id" class="sub">
           <img class="sub-icon" :src="item.src" alt="check" />
           <div>
             <h2 class="sub-title">{{ item.title }}</h2>
@@ -106,6 +106,12 @@ export default {
       padding-top: 15px;
       padding-bottom: 0;
     }
+
+    @media screen and (min-width: 1025px) and (max-width: 1440px) {
+      padding-left: 15px;
+      padding-top: 15px;
+      padding-bottom: 0;
+    }
     @media screen and (min-width: 1440px) {
       padding-top: 160px;
       padding-left: 200px;
@@ -131,6 +137,10 @@ export default {
     @media screen and (max-width: 1024px) {
       padding-left: 15px;
       padding-top: 500px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1440px) {
+      padding-left: 15px;
     }
     @media screen and (min-width: 1440px) {
       padding-left: 200px;
@@ -189,6 +199,11 @@ export default {
       top: 245px;
       transform: translateX(-50%);
     }
+    @media screen and (min-width: 1025px) and (max-width: 1440px) {
+      left: 750px;
+      top: 200px;
+    }
+
     @media screen and (min-width: 1440px) {
       left: 920px;
       top: 300px;

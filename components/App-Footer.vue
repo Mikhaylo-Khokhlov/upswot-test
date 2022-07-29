@@ -45,6 +45,10 @@ export default {
   @media screen and (max-width: 1024px) {
     padding: 30px 15px;
   }
+  @media screen and (min-width: 1025px) and (max-width: 1440px) {
+    padding: 30px 15px;
+  }
+
   @media screen and (min-width: 1440px) {
     padding: 30px 200px;
   }
